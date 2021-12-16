@@ -105,3 +105,18 @@ img {
     font-size: 40px;
   }
 }
+
+
+@media screen and (max-width: 768px) {
+
+
+  #lezioni .row, #why .row{
+    background-color: #f2f2cd;
+    margin-top: 0;
+  }
+
+  h1, h3{
+    font-size: 30px;
+  }
+
+}
