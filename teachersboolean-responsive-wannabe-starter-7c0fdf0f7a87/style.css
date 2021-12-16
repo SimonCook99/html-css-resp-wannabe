@@ -74,25 +74,34 @@ img {
 
 
 
-
 /* Sezione media query*/
 @media screen and (max-width: 420px){
+
   #lezioni .row>.left, #lezioni .row>.right{
     float: none;
     margin-bottom: 20px;
+    width: 100%;
+  }
+
+  #steps .row{
+    width: 100%;
+    background-color: white;
+    margin-top: 0;
   }
 
   #steps .row>.left, #steps .row>.central, #steps .row>.right{
     float: none;
     margin-bottom: 20px;
+    width: 100%;
   }
 
   #lezioni .row, #why .row{
     background-color: #f2f2cd;
+    width: 100%;
+    margin-top: 0;
   }
 
   h1{
     font-size: 40px;
-    transform: translate(-20%, 0px);
   }
 }
